@@ -5,7 +5,7 @@ Docker 化した Nest.js と MySQL のテンプレート。
 ## 開発環境
 
 - Docker Compose
-  - Node.js 16.13
+  - Node.js 16.13.1
   - MySQL 8.0.26
 
 ### 起動
@@ -18,8 +18,6 @@ docker compose up -d
 docker compose logs
 ```
 
-また、API は次のメッセージが出力されたのち、`http://localhost:3000`で接続できます。
-
 ### 終了
 
 ```sh
@@ -31,3 +29,9 @@ docker compose stop
 ```sh
 docker compose up
 ```
+
+### ヘルスチェック
+
+localhost:3000/healthcheck
+
+{response: "OK"}
