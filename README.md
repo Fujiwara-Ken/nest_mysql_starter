@@ -7,6 +7,7 @@ Docker 化した Nest.js と MySQL のテンプレート。
 - Docker Compose
   - Node.js 16.13.1
   - MySQL 8.0.26
+  - typeorm 0.3.6 (<https://github.com/typeorm/typeorm/releases>)
 
 ### 起動
 
